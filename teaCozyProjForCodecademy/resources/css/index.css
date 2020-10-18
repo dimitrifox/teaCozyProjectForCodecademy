@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    align-items: center;
+
+}
+
+.logoIcon {
+    display: flex;
+    height: 50px;
+    width: 180px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.logoIcon img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.topMenu {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+
+.topMenu a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.ourMissionChapter {
+    padding-top: 70px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentOfOurMissionBlock {
+    width: 1200px;
+    height: 700px;
+    background-image: url('../../resources/images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+}
+
+.textBlockInOurMissionChapter {
+    display: inline-flex;
+    width: 1200px;
+    height: fit-content;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+
+.featuredTeaChapter {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentBlockOfFeaturedTeaChapter {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headingsOfContentBlockOfFeaturedTeaChapter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+}
+
+.imagesOfContentBlockOfFeaturedTeaChapter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.imageAndParagraphInTeaFeatureChapter {
+    display: flex;
+    width: 300px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.imageAndParagraphInTeaFeatureChapter p {
+    margin-top: 10px;
+}
+
+.imageInTeaFeatueChapter {
+    display: inline-flex;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imageInTeaFeatueChapter img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.locationsChapter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.adressesBlock {
+    width: 1200px;
+    height: 500px;
+    background-image: url('../../resources/images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adressesBlock h2 {
+    margin-top: 2rem;
+}
+
+.rectanglesWithAdresses {
+    margin-top: 15px;
+    display: flex;
+    width: 980px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.addressRectangle {
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactsChapter {
+    width: 100%;
+    display: flex;
+}
+
+.blockWithContactInformation {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+}
+
+.copyrightInformationChapter {
+    margin: 30px 20px;
+    text-align: left;
+}
